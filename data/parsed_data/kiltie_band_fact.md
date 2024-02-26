@@ -8,7 +8,9 @@ After football season, the Kiltie Concert Band plays a holiday concert and two s
 
 The Kiltie Band is a campus organization recognized by Student Senate and administered by the Department of Athletics, Physical Education and Recreation. Membership is open to all members of the campus/community without audition. Participants must do their best to promote the success of the ensemble through attendance, attitude, and dependability.
 
+
 FAQs
+
 Q: When are rehearsals?
 A: Football season: Mondays and Thursdays from 5:30 p.m.-7:30 p.m. and Game Day 9:30-11:00a.m. Concert Season: Mondays and Thursdays from 5:30-6:30 p.m.
 Location is the CUC Studio Theater.
@@ -30,5 +32,3 @@ A: There are several Kiltie-owned instruments available for your use. Loans begi
 
 Q: What do they wear under those kilts?
 A: Join and you’ll find out!
-
-For more information, visit the Kiltie Band website.

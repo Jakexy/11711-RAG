@@ -10,16 +10,30 @@ from transformers import DPRContextEncoder, DPRContextEncoderTokenizer, DPRQuest
 # Workaround for potential OpenMP conflicts
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-file_path = 'data/parsed_data/faculty_info.txt'
+file_path = 'data/parsed_data/faculty_info.md'
+directory_path = 'data/parsed_data'
 
-def load_documents(file_path):
-    segments = []
-    with open(file_path, 'r', encoding='utf-8') as file:
-        for line in file:
-            line = line.strip()  # Remove leading/trailing whitespace
-            if line:  # Ensure the line is not empty
-                segments.append(line)
-    return segments
+# def load_documents(file_path):
+#     segments = []
+#     with open(file_path, 'r', encoding='utf-8') as file:
+#         for line in file:
+#             line = line.strip()  # Remove leading/trailing whitespace
+#             if line:  # Ensure the line is not empty
+#                 segments.append(line)
+#     return segments
+def load_documents(directory_path):
+    documents = []
+    for file_name in os.listdir(directory_path):
+        if file_name.endswith('.md'):
+            file_path = os.path.join(directory_path, file_name)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                sections = file.read().split('\n\n')  # Split into sections by two newlines
+                for section in sections:
+                    paragraphs = section.split('\n')  # Split each section into paragraphs
+                    documents.extend(paragraphs)
+                    documents.append('')  # Add an empty string to create a double newline
+    return documents
+
 
 
 def encode_documents(documents, context_encoder, context_encoder_tokenizer):
@@ -37,9 +51,9 @@ def search_documents(query_embedding, faiss_index, segments, k):
     _, indices = faiss_index.search(query_embedding, k)  # Search the index
     return [segments[idx] for idx in indices[0]]  # Return the top k segment(s)
 
-def generate_response_pipeline(context, question):
-    generator = pipeline('question-answering', model="gpt2")
-    
+def generate_response_pipeline(question, context):
+    # naver-clova-ix/donut-base-finetuned-docvqa
+    generator = pipeline('question-answering')
     response = generator(question=question, context=context, max_answer_len=1024)
     return response['answer']
     
@@ -49,35 +63,40 @@ def main():
     args = parser.parse_args()
 
     # Load segments from the file
-    file_path = 'data/parsed_data/faculty_info.txt'
-    segments = load_documents(file_path)
+    segments = load_documents(directory_path)
+    print("LOAD documents finished!")
 
     # Initialize DPR models
     context_encoder = DPRContextEncoder.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
     context_tokenizer = DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
     question_encoder = DPRQuestionEncoder.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
     question_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
+    print("Initialization finisehd!")
 
     # Encode segments to embeddings
     inputs = context_tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=1024)
     context_embeddings = context_encoder(**inputs).pooler_output.detach().numpy()
+    print("Embeddings segments finished!")
 
     # Create FAISS index from embeddings
     faiss_index = create_faiss_index(context_embeddings)
+    print("Faiss index finished!")
 
     # Encode the query
     query_inputs = question_tokenizer(args.query_text, return_tensors="pt", padding=True, truncation=True, max_length=1024)
     query_embedding = question_encoder(**query_inputs).pooler_output.detach().numpy()
+    print("Encod query finished!")
 
     # Search for the most relevant segment(s)
     top_segments = search_documents(query_embedding, faiss_index, segments, k=1)
-    print(f"segments: {top_segments}")
+    print(f"Segments: {top_segments}")
 
     # Use the top segment for answering the question
-    response_pipeline = pipeline('question-answering')
-    import pdb; pdb.set_trace()
-    response = response_pipeline(question=args.query_text, context=top_segments[0])
-    print(f"Response: {response['answer']}")
+
+    # response_pipeline = pipeline('question-answering')
+    # response = response_pipeline(question=args.query_text, context=top_segments[0])
+    response = generate_response_pipeline(question=args.query_text, context=top_segments[0])
+    print(f"Response: {response}")
     
 
 if __name__ == "__main__":

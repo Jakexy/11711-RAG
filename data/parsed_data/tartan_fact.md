@@ -1,6 +1,8 @@
 Tartan Facts
+
 Who founded Carnegie Mellon University?
 Carnegie Technical Schools was founded in 1900 by Andrew Carnegie. Twelve years later it became known as the Carnegie Institute of Technology. In 1967, the school merged with Mellon Institute and became what is known today as Carnegie Mellon University.
+
 
 What is a Tartan?
 
@@ -8,7 +10,9 @@ The Carnegie Mellon athletic teams are nicknamed the "Tartans" as a nod to Andre
 
 The Scottish terrier mascot performer sports Carnegie tartan attire, while the graphic mascot is wearing a plaid scarf around its neck. So what's the difference between tartan and plaid?
 
+
 You'll know it's a tartan if...
+
 • "It's a check or pattern in a variety of colours in woven fabric in which bands of colour are repeated in equal proportion in warp (running lengthwise) and weft (running across)."
 • "Each stripe of the warp crosses every stripe of the weft, so when vertical and horizontal stripes of the same color cross, the result is solid color at the point of intersection."
 • "The arrangement of colored threads is the same in the warp as in the weft."
@@ -17,65 +21,63 @@ You can find our official tartan on various items in the University Store.
 
 Source: "Tartan: Romancing the Plaid," by Jeffrey Banks and Doria De La Chapelle 
 
- 
 
 Official Mascot?
 More than a century after Carnegie Mellon University opened its doors, an official mascot finally made its mark. Although students have dressed as a Scottish terrier — typically referred to as Scotty — for 50 years, it wasn't until 2007 that Carnegie Mellon officially welcomed the Scottish terrier as the university's first mascot.
 
 In keeping with tradition, students, faculty, staff and alumni voted to name the new official mascot Scotty. But it's not just the costumed mascot that voters named. The live dog is also known as Scotty to the Carnegie Mellon community.
-
-About Scotty | Celebrating Scotty | Performer Requests
-
  
 
 Department Quick Facts
 
-Name of School: Carnegie Mellon University
+The Name of School is Carnegie Mellon University.
 
-City/Zip: Pittsburgh, PA 15213
+The city Carnegie Mellon University is located is Pittsburgh.
 
-Founded: 1900
+The zip code of Carnegie Mellon University is 15213.
 
-Enrollment (undergrad): 6,982- Fall 2021
+Carnegie Mellon University is founded in 1900.
 
-Enrollment (graduate and doctoral): 7,062 - Fall 2021
+The number of undergraduate enrolled in Carnegie Mellon University is 6,982 in Fall 2021.
 
-Alumni: 102,577
+The number of graduate and doctoral enrolled in Carnegie Mellon University is 7,062 in Fall 2021.
 
-Nickname: Tartans
+The number of alumni of Carnegie Mellon University is 102,577.
 
-Mascot: Scottie Dog
+The nickname of Carnegie Mellon University is tartans.
 
-School Colors: Cardinal and Gray
+The mascot of Carnegie Mellon University is scottie dog.
 
-Football Stadium and Track and Field: Gesling Stadium
+The school colors of Carnegie Mellon University are cardinal and gray.
 
-Capacity: 3,500
+The football stadium and track and field facility at Carnegie Mellon University is Gesling Stadium.
 
-Surface: FieldTurf
+Gesling Stadium has a capacity of 3,500 spectators.
 
-Basketball/Volleyball Gym: Wiegand Gymnasium
+The surface of Gesling Stadium is FieldTurf.
 
-Capacity: 500
+The basketball and volleyball gymnasium at Carnegie Mellon University is Wiegand Gymnasium.
 
-Soccer Stadium: CMU Soccer Field
+Wiegand Gymnasium has a capacity of 500 spectators.
 
-Capacity: 250
+The soccer stadium at Carnegie Mellon University is CMU Soccer Field.
 
-Surface: FieldTurf
+CMU Soccer Field has a capacity of 250 spectators.
 
-Affiliation: NCAA Division III
+The surface of CMU Soccer Field is FieldTurf.
 
-Conference: University Athletic Association | Presidents' Athletic Conference (Football Only)
+Carnegie Mellon University is affiliated with NCAA Division III.
 
-President: Dr. Farnam Jahanian
+In football, Carnegie Mellon University is affiliated with the University Athletic Association and the Presidents' Athletic Conference.
 
-Alma Mater, Year: University of Texas at Austin
+The president of Carnegie Mellon University is Dr. Farnam Jahanian.
 
-Athletic Director: Dr. Josh Centor
+Dr. Farnam Jahanian received his Alma Mater degree from the University of Texas at Austin.
 
-Alma Mater, Year: Brandeis, 2004
+The athletic director of Carnegie Mellon University is Dr. Josh Centor.
 
-Athletic Department Phone: 412-268-8054
+Dr. Josh Centor received his Alma Mater degree from Brandeis in 2004.
 
-Mailing Address:  5000 Forbes Avenue / Pittsburgh, PA 15213
+The athletic department phone number of Carnegie Mellon University is 412-268-8054.
+
+The mailing address of Carnegie Mellon University is 5000 Forbes Avenue, Pittsburgh, PA 15213.

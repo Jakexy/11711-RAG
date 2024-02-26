@@ -39,14 +39,15 @@ def html_parser(addr):
             if label:
                 info_type = label.get_text(strip=True).replace(':', '').lower()
                 full_text = info_div.get_text(strip=True)
-                info_content = full_text.replace(label.get_text(), '').strip()
+                # info_content = full_text.replace(info_type, '').strip()
+                info_content = "".join(full_text.split(":")[1:])
                 personal_info += f"The {info_type} of {name} is {info_content}. "
         faculty_data.append(personal_info)
 
     # Save the data to a JSON file
-    with open('../parsed_data/faculty_info.txt', 'a') as txt_file:
+    with open('data/parsed_data/faculty_info.txt', 'a') as txt_file:
         json.dump(faculty_data, txt_file, indent=4)
 
-html_parser('../raw_data/lti_faculty_page1.html')
-html_parser('../raw_data/lti_faculty_page2.html')
+html_parser('data/raw_data/lti_faculty_page1.html')
+html_parser('data/raw_data/lti_faculty_page2.html')
 print("Faculty information has been saved to 'faculty_info.txt'.")

@@ -1,4 +1,5 @@
 About Scotty
+
 The Scottish terrier has long been a familiar figure around Carnegie Mellon's campus. For years students have suited up in an unofficial Scottish terrier costume to excite the fans at athletic events. But the relationship between the Scottish terrier breed and Carnegie Mellon far precedes anybody doing somersaults in a dog costume. Andrew Carnegie, founder of the university, kept a Scottish terrier as his pet.
 
 Scotty's road from popular icon to official mascot of the university began in 2006. Carnegie Mellon formed a Mascot Identity Task Force in November 2006, which consisted of students, faculty, staff and alumni. The Task Force was co-chaired by Director of Athletics Susan Bassett and Dean of Student Affairs Jennifer Church.
@@ -10,6 +11,7 @@ In the spring, the Task Force partnered with SME Branding — a firm with more t
 Carnegie Mellon's official mascot debuted at the Nov. 10, 2007 home football game. The graphic features a profile of a distinguished, bold Scottish terrier sporting a plaid scarf around his neck. The dog is contained in a shield, representing Carnegie Mellon's Scottish heritage.
 
 The Task Force then partnered with a mascot costume company to design our Scottish terrier in the winter of 2007. The official Scotty costume was unveiled at the 2008 Spring Carnival.
+
 
 Fun Fact
 
