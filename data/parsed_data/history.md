@@ -45,3 +45,32 @@ In 1948, the Graduate School of Industrial Administration, later renamed the Dav
 
 In 1968, School of Urban and Public Affairs, later renamed the H. John Heinz III College, providing graduate training for work in the public sector.
 1986: School of Computer Science, pioneering computing and artificial intelligence, led by interdisciplinary efforts of Allen Newell and Herbert Simon.
+
+Carnegie Mellon University
+
+
+In 1967, Carnegie Tech merged with the Mellon Institute, a science research center founded by the Mellon family of Pittsburgh, to become known as Carnegie Mellon University. The merger built upon a long history of support from the Mellons.
+
+It allowed Carnegie Mellon to establish the last of its current pillars: the Mellon College of Science and the College of Humanities and Social Sciences, now known as Marianna Brown Dietrich College of Humanities and Social Sciences.
+
+In 2017, Carnegie Mellon celebrated the 50th anniversary of the Carnegie Tech-Mellon Institute merger, revisiting the shared vision of the founders and recognizing the impact it has had, and will continue to have, in the world of higher education, research and discovery.
+
+
+A Global Impact
+
+In its 115 years, Carnegie Mellon has soared to national and international leadership in higher education and research. A birthplace of innovation since its founding, it continues to be known for innovation, for solving real-world problems and for interdisciplinary collaboration.
+
+Its alumni can be found across the globe — from Tony Award winners to Nobel Prize and Turing Award winners, from CEOs to entrepreneurs, from professors to artists.
+
+In the 2000s, in response to demand for expanded international educational opportunities, Carnegie Mellon began offering degree programs outside of Pittsburgh.
+
+Today its global presence includes campuses in Qatar and Silicon Valley, Calif., more than a dozen degree-granting locations and more than 20 research partnerships such as Los Angeles; New York City; Washington, D.C.; Australia; China; Portugal and Rwanda.
+
+
+The Future
+
+CMU is positioned like never before to meet the challenges of the 21st century. In the coming years, the university will see the largest expansion to the Pittsburgh campus since 1900.
+
+At the intersection of technology and humanity, CMU research, innovation and creativity will continue to guide our future as a world-class university.
+
+As outlined in the Strategic Plan 2025, the university will focus on advancing the individual student experience, the broader Carnegie Mellon community experience, and the social impact of Carnegie Mellon throughout the world.

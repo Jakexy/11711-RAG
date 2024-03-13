@@ -1,3 +1,10 @@
+# model? (only for finetuning or needed for reader model)
+# parse knowledge base once or every time (parse data methods)
+
+# parse data & answer questions form for paper/course data
+
+# prepare test data
+
 import argparse
 import json
 import numpy as np
@@ -24,7 +31,7 @@ directory_path = 'data/parsed_data'
 def load_documents(directory_path):
     documents = []
     for file_name in os.listdir(directory_path):
-        if file_name.endswith('.md'):
+        if file_name.endswith('tartan_fact.md'):
             file_path = os.path.join(directory_path, file_name)
             with open(file_path, 'r', encoding='utf-8') as file:
                 sections = file.read().split('\n\n')  # Split into sections by two newlines
@@ -43,7 +50,7 @@ def encode_documents(documents, context_encoder, context_encoder_tokenizer):
 
 def create_faiss_index(embeddings):
     dimension = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dimension)
+    index = faiss.IndexFlatIP(dimension)
     index.add(embeddings)
     return index
 
@@ -71,7 +78,7 @@ def main():
     context_tokenizer = DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
     question_encoder = DPRQuestionEncoder.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
     question_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
-    print("Initialization finisehd!")
+    print("Initialization finished!")
 
     # Encode segments to embeddings
     inputs = context_tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=1024)
@@ -88,7 +95,7 @@ def main():
     print("Encod query finished!")
 
     # Search for the most relevant segment(s)
-    top_segments = search_documents(query_embedding, faiss_index, segments, k=1)
+    top_segments = search_documents(query_embedding, faiss_index, segments, k=3)
     print(f"Segments: {top_segments}")
 
     # Use the top segment for answering the question
