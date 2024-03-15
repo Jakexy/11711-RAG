@@ -1,0 +1,10 @@
+Faculty: Louis-Philippe Morency
+Title: Quantifying & Modeling Feature Interactions: An Information Decomposition Framework
+Abstract: The recent explosion of interest in multimodal applications has resulted in a wide selection of datasets and methods for representing and integrating information from different signals. Despite these empirical advances, there remain fundamental research questions: how can we quantify the nature of interactions that exist among input features? Subsequently, how can we capture these interactions using suitable data-driven methods? To answer this question, we propose an information-theoretic approach to quantify the degree of redundancy , uniqueness , and synergy across input features, which we term the PID statistics of a multimodal distribution. Using 2 newly proposed estimators that scale to high-dimensional distributions, we demonstrate their usefulness in quantifying the interactions within multimodal datasets, the nature of interactions captured by multimodal models, and principled approaches for model selection. We conduct extensive experiments on both synthetic datasets where the PID statistics are known and on large-scale multimodal benchmarks where PID estimation was previously impossible. Finally, to demonstrate the real-world applicability of our approach, we present three case studies in pathology, mood prediction, and robotic perception where our framework accurately recommends strong multimodal models for each application.
+Year: 2023
+Authors: P. Liang, Yun Cheng, Xiang Fan, Chun Kai Ling, Suzanne Nie, Richard J. Chen, Zihao Deng, Faisal Mahmood, R. Salakhutdinov, Louis-Philippe Morency
+Publication ID: 1901e811-ee72-4b20-8f7e-de08cd395a10
+Publication Name: arXiv.org
+Publication Alternate Names: ArXiv
+Publication Issn: 2331-8422
+Publication Url: https://arxiv.org

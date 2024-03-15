@@ -1,0 +1,10 @@
+Faculty: Louis-Philippe Morency
+Title: SHAP-based Prediction of Mother's History of Depression to Understand the Influence on Child Behavior
+Abstract: Depression strongly impacts parents’ behavior. Does parents’ depression strongly affect the behavior of their children as well? To investigate this question, we compared dyadic interactions between 73 depressed and 75 non-depressed mothers and their adolescent child. Families were of low income and 84% were white. Child behavior was measured from audio-video recordings using manual annotation of verbal and nonverbal behavior by expert coders and by multimodal computational measures of facial expression, face and head dynamics, prosody, speech behavior, and linguistics. For both sets of measures, we used Support Vector Machines. For computational measures, we investigated the relative contribution of single versus multiple modalities using a novel approach to SHapley Additive exPlanations (SHAP). Computational measures outperformed manual ratings by human experts. Among individual computational measures, prosody was the most informative. SHAP reduction resulted in a four-fold decrease in the number of features and highest performance (77% accuracy; positive and negative agreements at 75% and 76%, respectively). These findings suggest that maternal depression strongly impacts the behavior of adolescent children; differences are most revealed in prosody; multimodal features together with SHAP reduction are most powerful.
+Year: 2023
+Authors: Maneesh Bilalpur, Saurabh Hinduja, Laura Cariola, Lisa B. Sheeber, Nicholas B Allen, Louis-Philippe Morency, Jeffrey F. Cohn
+Publication ID: d11025b6-9660-45df-b13a-555e3ff4ceca
+Publication Name: International Conference on Multimodal Interaction
+Publication Type: conference
+Publication Alternate Names: Int Conf Multimodal Interact, International Conference on Multimodal Interfaces, Int Conf Multimodal Interface, ICMI
+Publication Url: https://en.wikipedia.org/wiki/ACM/IEEE_Virtual_Reality_International_Conference

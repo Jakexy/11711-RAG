@@ -12,36 +12,31 @@ import faiss
 import torch
 import os
 from transformers import DPRContextEncoder, DPRContextEncoderTokenizer, DPRQuestionEncoder, DPRQuestionEncoderTokenizer, pipeline
-# from transformers import DPRQuestionEncoderTokenizer, DPRQuestionEncoder, DPRContextEncoder, AutoModelForCausalLM, AutoTokenizer, pipeline, BertTokenizer, BertModel
 
 # Workaround for potential OpenMP conflicts
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
-file_path = 'data/parsed_data/faculty_info.md'
 directory_path = 'data/parsed_data'
+directory_path2 = 'data/papers'
+output_path_index = 'data/embedded_data/faiss_index'
+output_path_segments = 'data/embedded_data/segments.json'
 
-# def load_documents(file_path):
-#     segments = []
-#     with open(file_path, 'r', encoding='utf-8') as file:
-#         for line in file:
-#             line = line.strip()  # Remove leading/trailing whitespace
-#             if line:  # Ensure the line is not empty
-#                 segments.append(line)
-#     return segments
-def load_documents(directory_path):
+def load_documents(max_chars=1000, overlap_chars=250):
     documents = []
     for file_name in os.listdir(directory_path):
-        if file_name.endswith('tartan_fact.md'):
+        if file_name.endswith('buggy_1.md'):
             file_path = os.path.join(directory_path, file_name)
             with open(file_path, 'r', encoding='utf-8') as file:
-                sections = file.read().split('\n\n')  # Split into sections by two newlines
-                for section in sections:
-                    paragraphs = section.split('\n')  # Split each section into paragraphs
-                    documents.extend(paragraphs)
-                    documents.append('')  # Add an empty string to create a double newline
+                content = file.read()
+                # Calculate the number of chunks
+                num_segments = len(content) // (max_chars - overlap_chars) + 1
+                for i in range(num_segments):
+                    start_index = i * (max_chars - overlap_chars)
+                    end_index = start_index + max_chars
+                    chunk = content[start_index:end_index].strip()
+                    if chunk:  # Avoid adding empty strings
+                        documents.append(chunk)
     return documents
-
-
 
 def encode_documents(documents, context_encoder, context_encoder_tokenizer):
     inputs = context_encoder_tokenizer(documents, padding=True, truncation=True, return_tensors="pt", max_length=1024)
@@ -58,54 +53,94 @@ def search_documents(query_embedding, faiss_index, segments, k):
     _, indices = faiss_index.search(query_embedding, k)  # Search the index
     return [segments[idx] for idx in indices[0]]  # Return the top k segment(s)
 
-def generate_response_pipeline(question, context):
-    # naver-clova-ix/donut-base-finetuned-docvqa
-    generator = pipeline('question-answering')
-    response = generator(question=question, context=context, max_answer_len=1024)
-    return response['answer']
-    
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("query_text", type=str, help="The query text.")
-    args = parser.parse_args()
+def appendSegments(segments,path):
+    with open(path, 'r') as file:
+        json_data = json.load(file)
 
+    json_data.append(segments)
+
+    # Write the updated JSON data back to the file
+    with open(path, 'w') as file:
+        json.dump(json_data, file)
+        
+def ini(context_encoder,context_tokenizer):
     # Load segments from the file
-    segments = load_documents(directory_path)
-    print("LOAD documents finished!")
+    segments = load_documents()
+    # print("LOAD documents finished!")
 
-    # Initialize DPR models
-    context_encoder = DPRContextEncoder.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
-    context_tokenizer = DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
-    question_encoder = DPRQuestionEncoder.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
-    question_tokenizer = DPRQuestionEncoderTokenizer.from_pretrained('facebook/dpr-question_encoder-single-nq-base')
-    print("Initialization finished!")
 
     # Encode segments to embeddings
-    inputs = context_tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=1024)
+    inputs = context_tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512)
     context_embeddings = context_encoder(**inputs).pooler_output.detach().numpy()
-    print("Embeddings segments finished!")
-
-    # Create FAISS index from embeddings
-    faiss_index = create_faiss_index(context_embeddings)
-    print("Faiss index finished!")
-
-    # Encode the query
-    query_inputs = question_tokenizer(args.query_text, return_tensors="pt", padding=True, truncation=True, max_length=1024)
-    query_embedding = question_encoder(**query_inputs).pooler_output.detach().numpy()
-    print("Encod query finished!")
-
-    # Search for the most relevant segment(s)
-    top_segments = search_documents(query_embedding, faiss_index, segments, k=3)
-    print(f"Segments: {top_segments}")
-
-    # Use the top segment for answering the question
-
-    # response_pipeline = pipeline('question-answering')
-    # response = response_pipeline(question=args.query_text, context=top_segments[0])
-    response = generate_response_pipeline(question=args.query_text, context=top_segments[0])
-    print(f"Response: {response}")
+    # print("Embeddings segments finished!")
     
+    with open(output_path_segments, 'w', encoding='utf-8') as file:
+        json.dump(segments, file, indent=4)
+    faiss_index = create_faiss_index(context_embeddings)
+    faiss.write_index(faiss_index, output_path_index)
+        
+def helper(segments,context_encoder,context_tokenizer):
+    # Encode segments to embeddings
+    inputs = context_tokenizer(segments, padding=True, truncation=True, return_tensors="pt", max_length=512)
+    context_embeddings = context_encoder(**inputs).pooler_output.detach().numpy()
+    # print("Embeddings segments finished!")
+    
+    appendSegments(segments,output_path_segments)
+    faiss_index = faiss.read_index(output_path_index)
+    faiss_index.add(context_embeddings)
+    faiss.write_index(faiss_index, output_path_index)
 
+def read_n_lines(file_path, n):
+    with open(file_path, 'r') as file:
+        while True:
+            lines = [file.readline() for _ in range(n)]  # Read N lines at a time
+            if not any(lines):  # Check if all lines are empty (end of file)
+                break
+            yield lines
+    
+def main():
+    context_encoder = DPRContextEncoder.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
+    context_tokenizer = DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
+    max_chars, overlap_chars = 500, 125
+    ini(context_encoder,context_tokenizer)    
+    for file_name in os.listdir(directory_path):
+        print("Working on",file_name)
+        if not file_name.endswith('.md'):
+            continue
+        elif file_name.endswith('courses.md'):
+            file_path = os.path.join(directory_path, file_name)
+            c = 0
+            for chunk in read_n_lines(file_path, 1):
+                for i,line in enumerate(chunk):
+                    chunk[i] = line.rstrip()
+                
+                c += 1
+                # Process each chunk of lines
+                helper(chunk,context_encoder,context_tokenizer)
+        else:
+            file_path = os.path.join(directory_path, file_name)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+                # Calculate the number of segments
+                num_segments = len(content) // (max_chars - overlap_chars) + 1
+                for i in range(num_segments):
+                    start_index = i * (max_chars - overlap_chars)
+                    end_index = start_index + max_chars
+                    segment = content[start_index:end_index].strip()
+                    # print(segment)
+                    # print(start_index,end_index)
+                    # print(segment)
+                    if segment:  # Avoid processing empty segments
+                        helper(segment,context_encoder,context_tokenizer)
+    for file_name in os.listdir(directory_path2):
+        if not file_name.endswith('.md'):
+            continue
+        file_path = os.path.join(directory_path, file_name)
+        with open(file_path, 'r', encoding='utf-8') as file:
+            content = file.read()
+            if content:
+                helper(content,context_encoder,context_tokenizer)
+        
+    
 if __name__ == "__main__":
     main()
-

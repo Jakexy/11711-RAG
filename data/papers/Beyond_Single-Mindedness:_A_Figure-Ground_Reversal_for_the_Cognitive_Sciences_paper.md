@@ -1,0 +1,12 @@
+Faculty: Justine Cassell
+Title: Beyond Single-Mindedness: A Figure-Ground Reversal for the Cognitive Sciences
+Abstract: A fundamental fact about human minds is that they are never truly alone: all minds are steeped in situated interaction. That social interaction matters is recognized by any experimentalist who seeks to exclude its influence by studying individuals in isolation. On this view, interaction complicates cognition. Here, we explore the more radical stance that interaction co-constitutes cognition: that we benefit from looking beyond single minds toward cognition as a process involving interacting minds. All around the cognitive sciences, there are approaches that put interaction center stage. Their diverse and pluralistic origins may obscure the fact that collectively, they harbor insights and methods that can respecify foundational assumptions and fuel novel interdisciplinary work. What might the cognitive sciences gain from stronger interactional foundations? This represents, we believe, one of the key questions for the future. Writing as a transdisciplinary collective assembled from across the classic cognitive science hexagon and beyond, we highlight the opportunity for a figure-ground reversal that puts interaction at the heart of cognition. The interactive stance is a way of seeing that deserves to be a key part of the conceptual toolkit of cognitive scientists.
+Year: 2023
+Authors: Mark Dingemanse, Andreas Liesenfeld, Marlou Rasenberg, Saul Albert, F. Ameka, Abeba Birhane, Dimitris Bolis, Justine Cassell, Rebecca Clift, E. Cuffari, H. Jaegher, C. Novaes, N. Enfield, Riccardo Fusaroli, E. Gregoromichelaki, E. Hutchins, Ivana Konvalinka, D. Milton, J. Rączaszek-Leonardi, V. Reddy, F. Rossano, David Schlangen, J. Seibt, E. Stokoe, L. Suchman, C. Vesper, T. Wheatley, Martina Wiltschko
+Publication ID: c33b01b0-31b4-470e-a9f9-8432e02c3cb9
+Publication Name: Cognitive Sciences
+Publication Type: journal
+Publication Alternate Names: Cognitive Science, Cogn Sci
+Publication Issn: 1935-8059
+Publication Url: http://www.informaworld.com/openurl?genre=journal&issn=1551-6709
+Publication Alternate Urls: http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1551-6709, http://www3.interscience.wiley.com/cgi-bin/jtoc?ID=121670282, https://onlinelibrary.wiley.com/journal/15516709, http://www.sciencedirect.com/science/journal/03640213, http://www.leaonline.com/loi/cog

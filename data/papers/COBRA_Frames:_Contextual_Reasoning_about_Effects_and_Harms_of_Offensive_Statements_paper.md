@@ -1,0 +1,10 @@
+Faculty: Maarten Sap
+Title: COBRA Frames: Contextual Reasoning about Effects and Harms of Offensive Statements
+Abstract: Warning: This paper contains content that may be offensive or upsetting. Understanding the harms and offensiveness of statements requires reasoning about the social and situational context in which statements are made. For example, the utterance"your English is very good"may implicitly signal an insult when uttered by a white man to a non-white colleague, but uttered by an ESL teacher to their student would be interpreted as a genuine compliment. Such contextual factors have been largely ignored by previous approaches to toxic language detection. We introduce COBRA frames, the first context-aware formalism for explaining the intents, reactions, and harms of offensive or biased statements grounded in their social and situational context. We create COBRACORPUS, a dataset of 33k potentially offensive statements paired with machine-generated contexts and free-text explanations of offensiveness, implied biases, speaker intents, and listener reactions. To study the contextual dynamics of offensiveness, we train models to generate COBRA explanations, with and without access to the context. We find that explanations by context-agnostic models are significantly worse than by context-aware ones, especially in situations where the context inverts the statement's offensiveness (29% accuracy drop). Our work highlights the importance and feasibility of contextualized NLP by modeling social factors.
+Year: 2023
+Authors: Xuhui Zhou, Haojie Zhu, Akhila Yerukola, Thomas Davidson, Jena D. Hwang, Swabha Swayamdipta, Maarten Sap
+Publication ID: 1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44
+Publication Name: Annual Meeting of the Association for Computational Linguistics
+Publication Type: conference
+Publication Alternate Names: Annu Meet Assoc Comput Linguistics, Meeting of the Association for Computational Linguistics, ACL, Meet Assoc Comput Linguistics
+Publication Url: https://www.aclweb.org/anthology/venues/acl/

@@ -1,0 +1,10 @@
+Faculty: Sean Welleck
+Title: STEER: Unified Style Transfer with Expert Reinforcement
+Abstract: While text style transfer has many applications across natural language processing, the core premise of transferring from a single source style is unrealistic in a real-world setting. In this work, we focus on arbitrary style transfer: rewriting a text from an arbitrary, unknown style to a target style. We propose STEER: Unified Style Transfer with Expert Reinforcement, a unified frame-work developed to overcome the challenge of limited parallel data for style transfer. STEER involves automatically generating a corpus of style-transfer pairs using a product of experts during decoding. The generated offline data is then used to pre-train an initial policy before switching to online, off-policy reinforcement learning for further improvements via fine-grained reward signals. STEER is unified and can transfer to multiple target styles from an arbitrary, unknown source style, making it particularly flexible and efficient. Experimental results on a challenging dataset with text from a diverse set of styles demonstrate state-of-the-art results compared to competitive baselines. Remarkably, STEER outperforms the 175B parameter instruction-tuned GPT-3 on overall style transfer quality, despite being 226 times smaller in size. We also show STEER is robust, maintaining its style transfer capabilities on out-of-domain data, and surpassing nearly all baselines across various styles. The success of our method highlights the potential of RL algorithms when augmented with controllable decoding to overcome the challenge of limited data supervision.
+Year: 2023
+Authors: Skyler Hallinan, Faeze Brahman, Ximing Lu, Jaehun Jung, S. Welleck, Yejin Choi
+Publication ID: 41bf9ed3-85b3-4c90-b015-150e31690253
+Publication Name: Conference on Empirical Methods in Natural Language Processing
+Publication Type: conference
+Publication Alternate Names: Empir Method Nat Lang Process, Empirical Methods in Natural Language Processing, Conf Empir Method Nat Lang Process, EMNLP
+Publication Url: https://www.aclweb.org/portal/emnlp

@@ -1,0 +1,10 @@
+Faculty: Sean Welleck
+Title: Inference-Time Policy Adapters (IPA): Tailoring Extreme-Scale LMs without Fine-tuning
+Abstract: While extreme-scale language models have demonstrated exceptional performance on a variety of language tasks, the degree of control over these language models through pure prompting can often be limited. Directly fine-tuning such language models can be effective for tailoring them, but it can be either extremely costly (e.g., GPT-3) or not even feasible for the broader community (e.g., GPT-4). We propose Inference-time Policy Adapters (IPA), which efficiently tailors a language model such as GPT-3 without fine-tuning it. IPA guides a large base model during decoding time through a lightweight policy adapter trained to optimize an arbitrary user objective with reinforcement learning. On five challenging text generation tasks, such as toxicity reduction and lexically constrained generation, IPA consistently brings significant improvements over off-the-shelf language models. It outperforms competitive baseline methods, sometimes even including expensive fine-tuning. In particular, tailoring GPT-2 with IPA can outperform GPT-3, while tailoring GPT-3 with IPA brings a major performance boost over GPT-3 (and sometimes even over GPT-4). Our promising results highlight the potential of IPA as a lightweight alternative to tailoring extreme-scale language models.
+Year: 2023
+Authors: Ximing Lu, Faeze Brahman, Peter West, Jaehun Jang, Khyathi Raghavi Chandu, Abhilasha Ravichander, Lianhui Qin, Prithviraj Ammanabrolu, Liwei Jiang, Sahana Ramnath, Nouha Dziri, Jillian R. Fisher, Bill Yuchen Lin, Skyler Hallinan, Xiang Ren, S. Welleck, Yejin Choi
+Publication ID: 41bf9ed3-85b3-4c90-b015-150e31690253
+Publication Name: Conference on Empirical Methods in Natural Language Processing
+Publication Type: conference
+Publication Alternate Names: Empir Method Nat Lang Process, Empirical Methods in Natural Language Processing, Conf Empir Method Nat Lang Process, EMNLP
+Publication Url: https://www.aclweb.org/portal/emnlp

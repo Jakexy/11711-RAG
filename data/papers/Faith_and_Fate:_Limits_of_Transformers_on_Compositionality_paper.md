@@ -1,0 +1,10 @@
+Faculty: Sean Welleck
+Title: Faith and Fate: Limits of Transformers on Compositionality
+Abstract: Transformer large language models (LLMs) have sparked admiration for their exceptional performance on tasks that demand intricate multi-step reasoning. Yet, these models simultaneously show failures on surprisingly trivial problems. This begs the question: Are these errors incidental, or do they signal more substantial limitations? In an attempt to demystify transformer LLMs, we investigate the limits of these models across three representative compositional tasks -- multi-digit multiplication, logic grid puzzles, and a classic dynamic programming problem. These tasks require breaking problems down into sub-steps and synthesizing these steps into a precise answer. We formulate compositional tasks as computation graphs to systematically quantify the level of complexity, and break down reasoning steps into intermediate sub-procedures. Our empirical findings suggest that transformer LLMs solve compositional tasks by reducing multi-step compositional reasoning into linearized subgraph matching, without necessarily developing systematic problem-solving skills. To round off our empirical study, we provide theoretical arguments on abstract multi-step reasoning problems that highlight how autoregressive generations' performance can rapidly decay with\,increased\,task\,complexity.
+Year: 2023
+Authors: Nouha Dziri, Ximing Lu, Melanie Sclar, Xiang Lorraine Li, Liwei Jian, Bill Yuchen Lin, Peter West, Chandra Bhagavatula, Ronan Le Bras, Jena D. Hwang, Soumya Sanyal, S. Welleck, Xiang Ren, Allyson Ettinger, Zaïd Harchaoui, Yejin Choi
+Publication ID: d9720b90-d60b-48bc-9df8-87a30b9a60dd
+Publication Name: Neural Information Processing Systems
+Publication Type: conference
+Publication Alternate Names: Neural Inf Process Syst, NeurIPS, NIPS
+Publication Url: http://neurips.cc/

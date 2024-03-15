@@ -1,0 +1,10 @@
+Faculty: Louis-Philippe Morency
+Title: Multimodal Fusion Interactions: A Study of Human and Automatic Quantification
+Abstract: In order to perform multimodal fusion of heterogeneous signals, we need to understand their interactions: how each modality individually provides information useful for a task and how this information changes in the presence of other modalities. In this paper, we perform a comparative study of how humans annotate two categorizations of multimodal interactions: (1) partial labels, where different annotators annotate the label given the first, second, and both modalities, and (2) counterfactual labels, where the same annotator annotates the label given the first modality before asking them to explicitly reason about how their answer changes when given the second. We further propose an alternative taxonomy based on (3) information decomposition, where annotators annotate the degrees of redundancy: the extent to which modalities individually and together give the same predictions, uniqueness: the extent to which one modality enables a prediction that the other does not, and synergy: the extent to which both modalities enable one to make a prediction that one would not otherwise make using individual modalities. Through experiments and annotations, we highlight several opportunities and limitations of each approach and propose a method to automatically convert annotations of partial and counterfactual labels to information decomposition, yielding an accurate and efficient method for quantifying multimodal interactions.
+Year: 2023
+Authors: P. Liang, Yun Cheng, R. Salakhutdinov, Louis-Philippe Morency
+Publication ID: d11025b6-9660-45df-b13a-555e3ff4ceca
+Publication Name: International Conference on Multimodal Interaction
+Publication Type: conference
+Publication Alternate Names: Int Conf Multimodal Interact, International Conference on Multimodal Interfaces, Int Conf Multimodal Interface, ICMI
+Publication Url: https://en.wikipedia.org/wiki/ACM/IEEE_Virtual_Reality_International_Conference

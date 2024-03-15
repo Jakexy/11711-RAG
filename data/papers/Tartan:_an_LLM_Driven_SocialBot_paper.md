@@ -1,0 +1,5 @@
+Faculty: Alexander Rudnicky
+Title: Tartan: an LLM Driven SocialBot
+Abstract: We describe our work to date on using large language models (LLMs) in our Alexa Prize Socialbot. Our work has laid the groundwork for looking more closely at using LLMs in a conversational system. We also analyze common patterns in conversations our bot has had with users
+Year: 2023
+Authors: Liangze Li, Ziyuan Liu, Li-Wei Chen, Ta-Chung Chi, Alexander I. Rudnicky

@@ -1,0 +1,10 @@
+Faculty: Jamie Callan
+Title: CSurF: Sparse Lexical Retrieval through Contextualized Surface Forms
+Abstract: Lexical exact-match systems perform text retrieval efficiently with sparse matching signals and fast retrieval through inverted lists, but naturally suffer from the mismatch between lexical surface form and implicit term semantics. This paper proposes to directly bridge the surface form space and the term semantics space in lexical exact-match retrieval via contextualized surface forms (CSF). Each CSF pairs a lexical surface form with a context source, and is represented by a lexical form weight and a contextualized semantic vector representation. This framework is able to perform sparse lexicon-based retrieval by learning to represent each query and document as a "bag-of-CSFs", simultaneously addressing two key factors in sparse retrieval: vocabulary expansion of surface form and semantic representation of term meaning. At retrieval time, it efficiently matches CSFs through exact-match of learned surface forms, and effectively scores each CSF pair via contextual semantic representations, leading to joint improvement in both term match and term scoring. Multiple experiments show that this approach successfully resolves the main mismatch issues in lexical exact-match retrieval and outperforms state-of-the-art lexical exact-match systems, reaching comparable accuracy as lexical all-to-all soft match systems as an efficient exact-match-based system.
+Year: 2023
+Authors: Zhen Fan, Luyu Gao, Jamie Callan
+Publication ID: eac972b5-2d1a-4c5a-98a2-c1e373f09163
+Publication Name: International Conference on the Theory of Information Retrieval
+Publication Type: conference
+Publication Alternate Names: Int Conf Theory Inf Retr, ICTIR
+Publication Url: http://www.wikicfp.com/cfp/program?id=1494
