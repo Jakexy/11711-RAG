@@ -1,10 +1,10 @@
-Faculty: Shinji Watanabe
-Title: Speech collage: code-switched audio generation by collaging monolingual corpora
-Abstract: Designing effective automatic speech recognition (ASR) systems for Code-Switching (CS) often depends on the availability of the transcribed CS resources. To address data scarcity, this paper introduces Speech Collage, a method that synthesizes CS data from monolingual corpora by splicing audio segments. We further improve the smoothness quality of audio generation using an overlap-add approach. We investigate the impact of generated data on speech recognition in two scenarios: using in-domain CS text and a zero-shot approach with synthesized CS text. Empirical results highlight up to 34.4% and 16.2% relative reductions in Mixed-Error Rate and Word-Error Rate for in-domain and zero-shot scenarios, respectively. Lastly, we demonstrate that CS augmentation bolsters the model's code-switching inclination and reduces its monolingual bias.
-Year: 2023
-Authors: A. Hussein, Dorsa Zeinali, Ondrej Klejch, Matthew Wiesner, Brian Yan, Shammur A. Chowdhury, Ahmed Ali, Shinji Watanabe, S. Khudanpur
-Publication ID: 1901e811-ee72-4b20-8f7e-de08cd395a10
-Publication Name: arXiv.org
-Publication Alternate Names: ArXiv
-Publication Issn: 2331-8422
-Publication Url: https://arxiv.org
+The paper title is Speech collage: code-switched audio generation by collaging monolingual corpora.
+The faculty author of the paper Speech collage: code-switched audio generation by collaging monolingual corpora is Shinji Watanabe.
+The paper Speech collage: code-switched audio generation by collaging monolingual corpora publication year is 2023.
+Co-authors of the paper Speech collage: code-switched audio generation by collaging monolingual corpora are A. Hussein, Dorsa Zeinali, Ondrej Klejch, Matthew Wiesner, Brian Yan, Shammur A. Chowdhury, Ahmed Ali, Shinji Watanabe, S. Khudanpur.
+The publication ID of the paper Speech collage: code-switched audio generation by collaging monolingual corpora is 1901e811-ee72-4b20-8f7e-de08cd395a10.
+The publication name of the paper Speech collage: code-switched audio generation by collaging monolingual corpora is arXiv.org.
+Publication alternate names of the paper Speech collage: code-switched audio generation by collaging monolingual corpora are ArXiv.
+The publication issn of the paper Speech collage: code-switched audio generation by collaging monolingual corpora is 2331-8422.
+The publication url of the paper Speech collage: code-switched audio generation by collaging monolingual corpora is https://arxiv.org.
+The paper abstract is Designing effective automatic speech recognition (ASR) systems for Code-Switching (CS) often depends on the availability of the transcribed CS resources. To address data scarcity, this paper introduces Speech Collage, a method that synthesizes CS data from monolingual corpora by splicing audio segments. We further improve the smoothness quality of audio generation using an overlap-add approach. We investigate the impact of generated data on speech recognition in two scenarios: using in-domain CS text and a zero-shot approach with synthesized CS text. Empirical results highlight up to 34.4% and 16.2% relative reductions in Mixed-Error Rate and Word-Error Rate for in-domain and zero-shot scenarios, respectively. Lastly, we demonstrate that CS augmentation bolsters the model's code-switching inclination and reduces its monolingual bias.

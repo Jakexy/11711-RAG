@@ -1,10 +1,10 @@
-Faculty: Daphne Ippolito
-Title: Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System
-Abstract: Neural language models are increasingly deployed into APIs and websites that allow a user to pass in a prompt and receive generated text. Many of these systems do not reveal generation parameters. In this paper, we present methods to reverse-engineer the decoding method used to generate text (i.e., top-_k_ or nucleus sampling). Our ability to discover which decoding strategy was used has implications for detecting generated text. Additionally, the process of discovering the decoding strategy can reveal biases caused by selecting decoding settings which severely truncate a model’s predicted distributions. We perform our attack on several families of open-source language models, as well as on production systems (e.g., ChatGPT).
-Year: 2023
-Authors: Daphne Ippolito, Nicholas Carlini, Katherine Lee, Milad Nasr, Yun William Yu
-Publication ID: 8648a277-d0ec-4691-9eed-399b31ff9860
-Publication Name: International Conference on Natural Language Generation
-Publication Type: conference
-Publication Alternate Names: Int Conf Nat Lang Gener, INLG
-Publication Url: http://www.wikicfp.com/cfp/program?id=1613
+The paper title is Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System.
+The faculty author of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System is Daphne Ippolito.
+The paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System publication year is 2023.
+Co-authors of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System are Daphne Ippolito, Nicholas Carlini, Katherine Lee, Milad Nasr, Yun William Yu.
+The publication ID of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System is 8648a277-d0ec-4691-9eed-399b31ff9860.
+The publication name of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System is International Conference on Natural Language Generation.
+The publication type of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System is conference.
+Publication alternate names of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System are Int Conf Nat Lang Gener, INLG.
+The publication url of the paper Reverse-Engineering Decoding Strategies Given Blackbox Access to a Language Generation System is http://www.wikicfp.com/cfp/program?id=1613.
+The paper abstract is Neural language models are increasingly deployed into APIs and websites that allow a user to pass in a prompt and receive generated text. Many of these systems do not reveal generation parameters. In this paper, we present methods to reverse-engineer the decoding method used to generate text (i.e., top-_k_ or nucleus sampling). Our ability to discover which decoding strategy was used has implications for detecting generated text. Additionally, the process of discovering the decoding strategy can reveal biases caused by selecting decoding settings which severely truncate a model’s predicted distributions. We perform our attack on several families of open-source language models, as well as on production systems (e.g., ChatGPT).

@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import json
 from collections import defaultdict
 
+semester = "fall 2023"
+
 def read_and_process_file(file_path,dic):
     # Open the file
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -17,10 +19,10 @@ def read_and_process_file(file_path,dic):
         
         # Process your group of six here
         # For example, just printing them
-        print(key)
-        print(value)
+        # print(key)
+        # print(value)
         dic[key] = value
-        print("---- End of Group ----\n")
+        # print("---- End of Group ----\n")
 
 def parse_html_to_json(html_text,dic):
     courses = []
@@ -36,10 +38,10 @@ def parse_html_to_json(html_text,dic):
             course_info = [col.text.strip() for col in columns]
 
             if len(course_info) == 10:
-                if course_info[0]:  # Course info
-                    if current_course:
-                        courses.append(current_course)
-                    current_course = ""
+                if course_info[0]:
+                    # if current_course:
+                    #     courses.append(current_course)
+                        # current_course = ""
                     course = course_info[0]
                     title = course_info[1]
                     units = course_info[2]
@@ -47,9 +49,13 @@ def parse_html_to_json(html_text,dic):
                     
                 course_type = course_info[3]
                 if course_type.startswith("Lec"):
-                    course_type = "Lecture" + course_type[3:]
+                    x = course_type[-1]
+                    if not x.isnumeric():
+                        x = ""
+                    course_type = "Lecture " + x
+                    course_type = course_type.strip()
                 else:
-                    course_type = "Session" + course_type[3:]
+                    course_type = "Session " + course_type
                 days = course_info[4]
                 if not "TBA" in days:
                     days = " and ".join(list(days))
@@ -64,9 +70,14 @@ def parse_html_to_json(html_text,dic):
                 # instructor = [x.strip() for x in course_info[9].split(",") if x.strip()]
                 # instructor = ", ".join(instructor)
                 instructor = course_info[9]
-                current_course = f"The course {course} is {title} and is {units} units. It is in the {department} department. The {course_type} meets on {days} from {begin} to {end} in {room} at {loc}. The instructor is {instructor}."
-    if current_course:  # Add the last course
-        courses.append(current_course)
+                # current_course = f"The course {course} is {title} and is {units} units. It is in the {department} department. For {semester}, the {course_type} meets on {days} from {begin} to {end} in {room} at {loc}. For {semester}, the instructor is {instructor}."
+                current_course = f"{course} is the course with course number {title}. The course with course number {title} is course {course}. The course {title} is {units} units. The course with course number {course} is {units} units. The course {title} is in the {department} department. The course with course number {course} is in the {department} department. For {semester}, the course {title} {course_type} meets on {days}. For {semester}, the course {title} {course_type} meets from {begin} to {end}. For {semester}, the course {title} {course_type} meets in {room} at {loc}. For {semester}, the instructor of course {title} is {instructor}. For {semester}, the the course with course number {course} {course_type} meets on {days}. For {semester}, the the course with course number {course} {course_type} meets from {begin} to {end}. For {semester}, the course with course number {course} {course_type} meets in {room} at {loc}. For {semester}, the instructor of course with course number {course} is {instructor}."
+                if course.isnumeric():
+                    courses.append(current_course)
+                else:
+                    print(course)
+    # if current_course:  # Add the last course
+    #     courses.append(current_course)
 
     return courses
 
@@ -80,7 +91,7 @@ read_and_process_file('department.txt',dic)
 courses_data = parse_html_to_json(html_text,dic)
 
 # Write JSON output to file
-with open("fall_courses.json", "w") as json_file:
+with open("fall_courses.md", "w") as json_file:
     json.dump(courses_data, json_file, indent=2)
 
 print("JSON file 'courses.json' has been created.")

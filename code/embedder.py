@@ -103,20 +103,20 @@ def main():
     context_tokenizer = DPRContextEncoderTokenizer.from_pretrained('facebook/dpr-ctx_encoder-single-nq-base')
     max_chars, overlap_chars = 500, 125
     ini(context_encoder,context_tokenizer)    
+    count = 1
+    print("    Currently done with",count,"files")
     for file_name in os.listdir(directory_path):
         print("Working on",file_name)
         if not file_name.endswith('.md'):
             continue
         elif file_name.endswith('courses.md'):
             file_path = os.path.join(directory_path, file_name)
-            c = 0
-            for chunk in read_n_lines(file_path, 1):
-                for i,line in enumerate(chunk):
-                    chunk[i] = line.rstrip()
-                
-                c += 1
-                # Process each chunk of lines
-                helper(chunk,context_encoder,context_tokenizer)
+            with open(file_path, 'r', encoding='utf-8') as file:
+                content = file.read()
+                for chunk in content.split('\n'):
+                    chunk = chunk.strip()
+                    # Process each chunk of lines
+                    helper(chunk,context_encoder,context_tokenizer)
         else:
             file_path = os.path.join(directory_path, file_name)
             with open(file_path, 'r', encoding='utf-8') as file:
@@ -132,14 +132,19 @@ def main():
                     # print(segment)
                     if segment:  # Avoid processing empty segments
                         helper(segment,context_encoder,context_tokenizer)
+        count += 1
+        print("    Currently done with",count,"files")
+    count = 0
     for file_name in os.listdir(directory_path2):
         if not file_name.endswith('.md'):
             continue
-        file_path = os.path.join(directory_path, file_name)
+        file_path = os.path.join(directory_path2, file_name)
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
             if content:
                 helper(content,context_encoder,context_tokenizer)
+        count += 1
+        print("    Currently done with",count,"papers")
         
     
 if __name__ == "__main__":

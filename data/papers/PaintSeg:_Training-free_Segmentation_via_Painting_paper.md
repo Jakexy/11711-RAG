@@ -1,10 +1,10 @@
-Faculty: Bhiksha Raj
-Title: PaintSeg: Training-free Segmentation via Painting
-Abstract: The paper introduces PaintSeg, a new unsupervised method for segmenting objects without any training. We propose an adversarial masked contrastive painting (AMCP) process, which creates a contrast between the original image and a painted image in which a masked area is painted using off-the-shelf generative models. During the painting process, inpainting and outpainting are alternated, with the former masking the foreground and filling in the background, and the latter masking the background while recovering the missing part of the foreground object. Inpainting and outpainting, also referred to as I-step and O-step, allow our method to gradually advance the target segmentation mask toward the ground truth without supervision or training. PaintSeg can be configured to work with a variety of prompts, e.g. coarse masks, boxes, scribbles, and points. Our experimental results demonstrate that PaintSeg outperforms existing approaches in coarse mask-prompt, box-prompt, and point-prompt segmentation tasks, providing a training-free solution suitable for unsupervised segmentation.
-Year: 2023
-Authors: Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, B. Raj
-Publication ID: 1901e811-ee72-4b20-8f7e-de08cd395a10
-Publication Name: arXiv.org
-Publication Alternate Names: ArXiv
-Publication Issn: 2331-8422
-Publication Url: https://arxiv.org
+The paper title is PaintSeg: Training-free Segmentation via Painting.
+The faculty author of the paper PaintSeg: Training-free Segmentation via Painting is Bhiksha Raj.
+The paper PaintSeg: Training-free Segmentation via Painting publication year is 2023.
+Co-authors of the paper PaintSeg: Training-free Segmentation via Painting are Xiang Li, Chung-Ching Lin, Yinpeng Chen, Zicheng Liu, Jinglu Wang, B. Raj.
+The publication ID of the paper PaintSeg: Training-free Segmentation via Painting is 1901e811-ee72-4b20-8f7e-de08cd395a10.
+The publication name of the paper PaintSeg: Training-free Segmentation via Painting is arXiv.org.
+Publication alternate names of the paper PaintSeg: Training-free Segmentation via Painting are ArXiv.
+The publication issn of the paper PaintSeg: Training-free Segmentation via Painting is 2331-8422.
+The publication url of the paper PaintSeg: Training-free Segmentation via Painting is https://arxiv.org.
+The paper abstract is The paper introduces PaintSeg, a new unsupervised method for segmenting objects without any training. We propose an adversarial masked contrastive painting (AMCP) process, which creates a contrast between the original image and a painted image in which a masked area is painted using off-the-shelf generative models. During the painting process, inpainting and outpainting are alternated, with the former masking the foreground and filling in the background, and the latter masking the background while recovering the missing part of the foreground object. Inpainting and outpainting, also referred to as I-step and O-step, allow our method to gradually advance the target segmentation mask toward the ground truth without supervision or training. PaintSeg can be configured to work with a variety of prompts, e.g. coarse masks, boxes, scribbles, and points. Our experimental results demonstrate that PaintSeg outperforms existing approaches in coarse mask-prompt, box-prompt, and point-prompt segmentation tasks, providing a training-free solution suitable for unsupervised segmentation.

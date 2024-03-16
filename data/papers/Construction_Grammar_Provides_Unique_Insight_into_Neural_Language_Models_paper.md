@@ -1,5 +1,5 @@
-Faculty: David Mortensen
-Title: Construction Grammar Provides Unique Insight into Neural Language Models
-Abstract: Construction Grammar (CxG) has recently been used as the basis for probing studies that have investigated the performance of large pretrained language models (PLMs) with respect to the structure and meaning of constructions. In this position paper, we make suggestions for the continuation and augmentation of this line of research. We look at probing methodology that was not designed with CxG in mind, as well as probing methodology that was designed for specific constructions. We analyse selected previous work in detail, and provide our view of the most important challenges and research questions that this promising new field faces.
-Year: 2023
-Authors: Leonie Weissweiler, Taiqi He, Naoki Otani, David R. Mortensen, L. Levin, Hinrich Schütze
+The paper title is Construction Grammar Provides Unique Insight into Neural Language Models.
+The faculty author of the paper Construction Grammar Provides Unique Insight into Neural Language Models is David Mortensen.
+The paper Construction Grammar Provides Unique Insight into Neural Language Models publication year is 2023.
+Co-authors of the paper Construction Grammar Provides Unique Insight into Neural Language Models are Leonie Weissweiler, Taiqi He, Naoki Otani, David R. Mortensen, L. Levin, Hinrich Schütze.
+The paper abstract is Construction Grammar (CxG) has recently been used as the basis for probing studies that have investigated the performance of large pretrained language models (PLMs) with respect to the structure and meaning of constructions. In this position paper, we make suggestions for the continuation and augmentation of this line of research. We look at probing methodology that was not designed with CxG in mind, as well as probing methodology that was designed for specific constructions. We analyse selected previous work in detail, and provide our view of the most important challenges and research questions that this promising new field faces.

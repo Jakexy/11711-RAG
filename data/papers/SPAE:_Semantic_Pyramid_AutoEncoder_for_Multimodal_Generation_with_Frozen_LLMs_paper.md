@@ -1,10 +1,10 @@
-Faculty: Yonatan Bisk
-Title: SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs
-Abstract: In this work, we introduce Semantic Pyramid AutoEncoder (SPAE) for enabling frozen LLMs to perform both understanding and generation tasks involving non-linguistic modalities such as images or videos. SPAE converts between raw pixels and interpretable lexical tokens (or words) extracted from the LLM's vocabulary. The resulting tokens capture both the semantic meaning and the fine-grained details needed for visual reconstruction, effectively translating the visual content into a language comprehensible to the LLM, and empowering it to perform a wide array of multimodal tasks. Our approach is validated through in-context learning experiments with frozen PaLM 2 and GPT 3.5 on a diverse set of image understanding and generation tasks. Our method marks the first successful attempt to enable a frozen LLM to generate image content while surpassing state-of-the-art performance in image understanding tasks, under the same setting, by over 25%.
-Year: 2023
-Authors: Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming Yang, K. Murphy, A. Hauptmann, Lu Jiang
-Publication ID: d9720b90-d60b-48bc-9df8-87a30b9a60dd
-Publication Name: Neural Information Processing Systems
-Publication Type: conference
-Publication Alternate Names: Neural Inf Process Syst, NeurIPS, NIPS
-Publication Url: http://neurips.cc/
+The paper title is SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs.
+The faculty author of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs is Yonatan Bisk.
+The paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs publication year is 2023.
+Co-authors of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs are Lijun Yu, Yong Cheng, Zhiruo Wang, Vivek Kumar, Wolfgang Macherey, Yanping Huang, David A. Ross, Irfan Essa, Yonatan Bisk, Ming Yang, K. Murphy, A. Hauptmann, Lu Jiang.
+The publication ID of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs is d9720b90-d60b-48bc-9df8-87a30b9a60dd.
+The publication name of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs is Neural Information Processing Systems.
+The publication type of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs is conference.
+Publication alternate names of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs are Neural Inf Process Syst, NeurIPS, NIPS.
+The publication url of the paper SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs is http://neurips.cc/.
+The paper abstract is In this work, we introduce Semantic Pyramid AutoEncoder (SPAE) for enabling frozen LLMs to perform both understanding and generation tasks involving non-linguistic modalities such as images or videos. SPAE converts between raw pixels and interpretable lexical tokens (or words) extracted from the LLM's vocabulary. The resulting tokens capture both the semantic meaning and the fine-grained details needed for visual reconstruction, effectively translating the visual content into a language comprehensible to the LLM, and empowering it to perform a wide array of multimodal tasks. Our approach is validated through in-context learning experiments with frozen PaLM 2 and GPT 3.5 on a diverse set of image understanding and generation tasks. Our method marks the first successful attempt to enable a frozen LLM to generate image content while surpassing state-of-the-art performance in image understanding tasks, under the same setting, by over 25%.

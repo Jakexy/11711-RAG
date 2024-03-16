@@ -65,14 +65,19 @@ def main():
     print("Encode query finished!")
 
     # Search for the most relevant segment(s)
-    top_segments = search_documents(query_embedding, faiss_index, segments, k=3)
-    print(f"Segments: {top_segments}")
+    top_segments = search_documents(query_embedding, faiss_index, segments, k=10)
+    for s in top_segments:
+        print()
+        print(s)
+        print()
+        
 
     # Use the top segment for answering the question
 
     # response_pipeline = pipeline('question-answering')
     # response = response_pipeline(question=args.query_text, context=top_segments[0])
     response = generate_response_pipeline(question=args.query_text, context=top_segments[0])
+    
     print(f"Response: {response}")
     
 

@@ -1,10 +1,10 @@
-Faculty: Eric Nyberg
-Title: Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA
-Abstract: The DialDoc 2023 shared task has expanded the document-grounded dialogue task to encompass multiple languages, despite having limited annotated data. This paper assesses the effectiveness of both language-agnostic and language-aware paradigms for multilingual pre-trained transformer models in a bi-encoder-based dense passage retriever (DPR), concluding that the language-agnostic approach is superior. Additionally, the study investigates the impact of query rewriting techniques using large language models, such as ChatGPT, on multilingual, document-grounded question-answering systems. The experiments conducted demonstrate that, for the examples examined, query rewriting does not enhance performance compared to the original queries. This failure is due to topic switching in final dialogue turns and irrelevant topics being considered for query rewriting.
-Year: 2023
-Authors: Srinivas Gowriraj, Soham Dinesh Tiwari, Mitali Potnis, Srijan Bansal, T. Mitamura, Eric Nyberg
-Publication ID: fc51fcd0-8420-4934-b76d-e46d8a084906
-Publication Name: Workshop on Document-grounded Dialogue and Conversational Question Answering
-Publication Type: conference
-Publication Alternate Names: DialDoc, Workshop Doc Dialogue Conversational Quest Answering
-Publication Url: https://aclanthology.org/venues/dialdoc/
+The paper title is Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA.
+The faculty author of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA is Eric Nyberg.
+The paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA publication year is 2023.
+Co-authors of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA are Srinivas Gowriraj, Soham Dinesh Tiwari, Mitali Potnis, Srijan Bansal, T. Mitamura, Eric Nyberg.
+The publication ID of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA is fc51fcd0-8420-4934-b76d-e46d8a084906.
+The publication name of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA is Workshop on Document-grounded Dialogue and Conversational Question Answering.
+The publication type of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA is conference.
+Publication alternate names of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA are DialDoc, Workshop Doc Dialogue Conversational Quest Answering.
+The publication url of the paper Language-Agnostic Transformers and Assessing ChatGPT-Based Query Rewriting for Multilingual Document-Grounded QA is https://aclanthology.org/venues/dialdoc/.
+The paper abstract is The DialDoc 2023 shared task has expanded the document-grounded dialogue task to encompass multiple languages, despite having limited annotated data. This paper assesses the effectiveness of both language-agnostic and language-aware paradigms for multilingual pre-trained transformer models in a bi-encoder-based dense passage retriever (DPR), concluding that the language-agnostic approach is superior. Additionally, the study investigates the impact of query rewriting techniques using large language models, such as ChatGPT, on multilingual, document-grounded question-answering systems. The experiments conducted demonstrate that, for the examples examined, query rewriting does not enhance performance compared to the original queries. This failure is due to topic switching in final dialogue turns and irrelevant topics being considered for query rewriting.

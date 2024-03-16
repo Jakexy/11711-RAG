@@ -1,10 +1,10 @@
-Faculty: Maarten Sap
-Title: Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models
-Abstract: The escalating debate on AI's capabilities warrants developing reliable metrics to assess machine"intelligence". Recently, many anecdotal examples were used to suggest that newer large language models (LLMs) like ChatGPT and GPT-4 exhibit Neural Theory-of-Mind (N-ToM); however, prior work reached conflicting conclusions regarding those abilities. We investigate the extent of LLMs' N-ToM through an extensive evaluation on 6 tasks and find that while LLMs exhibit certain N-ToM abilities, this behavior is far from being robust. We further examine the factors impacting performance on N-ToM tasks and discover that LLMs struggle with adversarial examples, indicating reliance on shallow heuristics rather than robust ToM abilities. We caution against drawing conclusions from anecdotal examples, limited benchmark testing, and using human-designed psychological tests to evaluate models.
-Year: 2023
-Authors: Natalie Shapira, Mosh Levy, S. Alavi, Xuhui Zhou, Yejin Choi, Yoav Goldberg, Maarten Sap, Vered Shwartz
-Publication ID: 1901e811-ee72-4b20-8f7e-de08cd395a10
-Publication Name: arXiv.org
-Publication Alternate Names: ArXiv
-Publication Issn: 2331-8422
-Publication Url: https://arxiv.org
+The paper title is Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models.
+The faculty author of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models is Maarten Sap.
+The paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models publication year is 2023.
+Co-authors of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models are Natalie Shapira, Mosh Levy, S. Alavi, Xuhui Zhou, Yejin Choi, Yoav Goldberg, Maarten Sap, Vered Shwartz.
+The publication ID of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models is 1901e811-ee72-4b20-8f7e-de08cd395a10.
+The publication name of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models is arXiv.org.
+Publication alternate names of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models are ArXiv.
+The publication issn of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models is 2331-8422.
+The publication url of the paper Clever Hans or Neural Theory of Mind? Stress Testing Social Reasoning in Large Language Models is https://arxiv.org.
+The paper abstract is The escalating debate on AI's capabilities warrants developing reliable metrics to assess machine"intelligence". Recently, many anecdotal examples were used to suggest that newer large language models (LLMs) like ChatGPT and GPT-4 exhibit Neural Theory-of-Mind (N-ToM); however, prior work reached conflicting conclusions regarding those abilities. We investigate the extent of LLMs' N-ToM through an extensive evaluation on 6 tasks and find that while LLMs exhibit certain N-ToM abilities, this behavior is far from being robust. We further examine the factors impacting performance on N-ToM tasks and discover that LLMs struggle with adversarial examples, indicating reliance on shallow heuristics rather than robust ToM abilities. We caution against drawing conclusions from anecdotal examples, limited benchmark testing, and using human-designed psychological tests to evaluate models.

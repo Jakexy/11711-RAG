@@ -1,10 +1,10 @@
-Faculty: Rita Singh
-Title: Pengi: An Audio Language Model for Audio Tasks
-Abstract: In the domain of audio processing, Transfer Learning has facilitated the rise of Self-Supervised Learning and Zero-Shot Learning techniques. These approaches have led to the development of versatile models capable of tackling a wide array of tasks, while delivering state-of-the-art performance. However, current models inherently lack the capacity to produce the requisite language for open-ended tasks, such as Audio Captioning or Audio Question&Answering. We introduce Pengi, a novel Audio Language Model that leverages Transfer Learning by framing all audio tasks as text-generation tasks. It takes as input, an audio recording, and text, and generates free-form text as output. The input audio is represented as a sequence of continuous embeddings by an audio encoder. A text encoder does the same for the corresponding text input. Both sequences are combined as a prefix to prompt a pre-trained frozen language model. The unified architecture of Pengi enables open-ended tasks and close-ended tasks without any additional fine-tuning or task-specific extensions. When evaluated on 22 downstream tasks, our approach yields state-of-the-art performance in several of them. Our results show that connecting language models with audio models is a major step towards general-purpose audio understanding
-Year: 2023
-Authors: Soham Deshmukh, Benjamin Elizalde, Rita Singh, Huaming Wang
-Publication ID: d9720b90-d60b-48bc-9df8-87a30b9a60dd
-Publication Name: Neural Information Processing Systems
-Publication Type: conference
-Publication Alternate Names: Neural Inf Process Syst, NeurIPS, NIPS
-Publication Url: http://neurips.cc/
+The paper title is Pengi: An Audio Language Model for Audio Tasks.
+The faculty author of the paper Pengi: An Audio Language Model for Audio Tasks is Rita Singh.
+The paper Pengi: An Audio Language Model for Audio Tasks publication year is 2023.
+Co-authors of the paper Pengi: An Audio Language Model for Audio Tasks are Soham Deshmukh, Benjamin Elizalde, Rita Singh, Huaming Wang.
+The publication ID of the paper Pengi: An Audio Language Model for Audio Tasks is d9720b90-d60b-48bc-9df8-87a30b9a60dd.
+The publication name of the paper Pengi: An Audio Language Model for Audio Tasks is Neural Information Processing Systems.
+The publication type of the paper Pengi: An Audio Language Model for Audio Tasks is conference.
+Publication alternate names of the paper Pengi: An Audio Language Model for Audio Tasks are Neural Inf Process Syst, NeurIPS, NIPS.
+The publication url of the paper Pengi: An Audio Language Model for Audio Tasks is http://neurips.cc/.
+The paper abstract is In the domain of audio processing, Transfer Learning has facilitated the rise of Self-Supervised Learning and Zero-Shot Learning techniques. These approaches have led to the development of versatile models capable of tackling a wide array of tasks, while delivering state-of-the-art performance. However, current models inherently lack the capacity to produce the requisite language for open-ended tasks, such as Audio Captioning or Audio Question&Answering. We introduce Pengi, a novel Audio Language Model that leverages Transfer Learning by framing all audio tasks as text-generation tasks. It takes as input, an audio recording, and text, and generates free-form text as output. The input audio is represented as a sequence of continuous embeddings by an audio encoder. A text encoder does the same for the corresponding text input. Both sequences are combined as a prefix to prompt a pre-trained frozen language model. The unified architecture of Pengi enables open-ended tasks and close-ended tasks without any additional fine-tuning or task-specific extensions. When evaluated on 22 downstream tasks, our approach yields state-of-the-art performance in several of them. Our results show that connecting language models with audio models is a major step towards general-purpose audio understanding

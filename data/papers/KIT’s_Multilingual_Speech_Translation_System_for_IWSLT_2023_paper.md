@@ -1,9 +1,9 @@
-Faculty: Alexander Waibel
-Title: KIT’s Multilingual Speech Translation System for IWSLT 2023
-Abstract: Many existing speech translation benchmarks focus on native-English speech in high-quality recording conditions, which often do not match the conditions in real-life use-cases. In this paper, we describe our speech translation system for the multilingual track of IWSLT 2023, which focuses on the translation of scientific conference talks. The test condition features accented input speech and terminology-dense contents. The tasks requires translation into 10 languages of varying amounts of resources. In absence of training data from the target domain, we use a retrieval-based approach (kNN-MT) for effective adaptation (+0.8 BLEU for speech translation). We also use adapters to easily integrate incremental training data from data augmentation, and show that it matches the performance of re-training. We observe that cascaded systems are more easily adaptable towards specific target domains, due to their separate modules. Our cascaded speech system outperforms its end-to-end counterpart on scientific talk translation, although their performance remains similar on TED talks.
-Year: 2023
-Authors: Danni Liu, T. Nguyen, Sai Koneru, Enes Yavuz Ugan, Ngoc-Quan Pham, Tuan-Nam Nguyen, Tu Anh Dinh, Carlos Mullov, A. Waibel, J. Niehues
-Publication ID: 5020dc0a-7e2f-43e6-9543-389c0c6d864d
-Publication Name: International Workshop on Spoken Language Translation
-Publication Type: conference
-Publication Alternate Names: IWSLT, Int Workshop Spok Lang Transl
+The paper title is KIT’s Multilingual Speech Translation System for IWSLT 2023.
+The faculty author of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 is Alexander Waibel.
+The paper KIT’s Multilingual Speech Translation System for IWSLT 2023 publication year is 2023.
+Co-authors of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 are Danni Liu, T. Nguyen, Sai Koneru, Enes Yavuz Ugan, Ngoc-Quan Pham, Tuan-Nam Nguyen, Tu Anh Dinh, Carlos Mullov, A. Waibel, J. Niehues.
+The publication ID of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 is 5020dc0a-7e2f-43e6-9543-389c0c6d864d.
+The publication name of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 is International Workshop on Spoken Language Translation.
+The publication type of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 is conference.
+Publication alternate names of the paper KIT’s Multilingual Speech Translation System for IWSLT 2023 are IWSLT, Int Workshop Spok Lang Transl.
+The paper abstract is Many existing speech translation benchmarks focus on native-English speech in high-quality recording conditions, which often do not match the conditions in real-life use-cases. In this paper, we describe our speech translation system for the multilingual track of IWSLT 2023, which focuses on the translation of scientific conference talks. The test condition features accented input speech and terminology-dense contents. The tasks requires translation into 10 languages of varying amounts of resources. In absence of training data from the target domain, we use a retrieval-based approach (kNN-MT) for effective adaptation (+0.8 BLEU for speech translation). We also use adapters to easily integrate incremental training data from data augmentation, and show that it matches the performance of re-training. We observe that cascaded systems are more easily adaptable towards specific target domains, due to their separate modules. Our cascaded speech system outperforms its end-to-end counterpart on scientific talk translation, although their performance remains similar on TED talks.

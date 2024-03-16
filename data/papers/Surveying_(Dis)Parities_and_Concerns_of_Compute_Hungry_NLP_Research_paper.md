@@ -1,10 +1,10 @@
-Faculty: Emma Strubell
-Title: Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research
-Abstract: Many recent improvements in NLP stem from the development and use of large pre-trained language models (PLMs) with billions of parameters. Large model sizes makes computational cost one of the main limiting factors for training and evaluating such models; and has raised severe concerns about the sustainability, reproducibility, and inclusiveness for researching PLMs. These concerns are often based on personal experiences and observations. However, there had not been any large-scale surveys that investigate them. In this work, we provide a first attempt to quantify these concerns regarding three topics, namely, environmental impact, equity, and impact on peer reviewing. By conducting a survey with 312 participants from the NLP community, we capture existing (dis)parities between different and within groups with respect to seniority, academia, and industry; and their impact on the peer reviewing process. For each topic, we provide an analysis and devise recommendations to mitigate found disparities, some of which already successfully implemented. Finally, we discuss additional concerns raised by many participants in free-text responses.
-Year: 2023
-Authors: Ji-Ung Lee, Haritz Puerto, Betty van Aken, Yuki Arase, J. Forde, Leon Derczynski, Andreas Ruckl'e, Iryna Gurevych, Roy Schwartz, Emma Strubell, Jesse Dodge
-Publication ID: 1901e811-ee72-4b20-8f7e-de08cd395a10
-Publication Name: arXiv.org
-Publication Alternate Names: ArXiv
-Publication Issn: 2331-8422
-Publication Url: https://arxiv.org
+The paper title is Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research.
+The faculty author of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research is Emma Strubell.
+The paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research publication year is 2023.
+Co-authors of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research are Ji-Ung Lee, Haritz Puerto, Betty van Aken, Yuki Arase, J. Forde, Leon Derczynski, Andreas Ruckl'e, Iryna Gurevych, Roy Schwartz, Emma Strubell, Jesse Dodge.
+The publication ID of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research is 1901e811-ee72-4b20-8f7e-de08cd395a10.
+The publication name of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research is arXiv.org.
+Publication alternate names of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research are ArXiv.
+The publication issn of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research is 2331-8422.
+The publication url of the paper Surveying (Dis)Parities and Concerns of Compute Hungry NLP Research is https://arxiv.org.
+The paper abstract is Many recent improvements in NLP stem from the development and use of large pre-trained language models (PLMs) with billions of parameters. Large model sizes makes computational cost one of the main limiting factors for training and evaluating such models; and has raised severe concerns about the sustainability, reproducibility, and inclusiveness for researching PLMs. These concerns are often based on personal experiences and observations. However, there had not been any large-scale surveys that investigate them. In this work, we provide a first attempt to quantify these concerns regarding three topics, namely, environmental impact, equity, and impact on peer reviewing. By conducting a survey with 312 participants from the NLP community, we capture existing (dis)parities between different and within groups with respect to seniority, academia, and industry; and their impact on the peer reviewing process. For each topic, we provide an analysis and devise recommendations to mitigate found disparities, some of which already successfully implemented. Finally, we discuss additional concerns raised by many participants in free-text responses.
