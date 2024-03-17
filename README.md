@@ -34,6 +34,7 @@ python3 code/main.py "How many people does it take to maneuver the .84 -mile cou
 ```
 
 ## Authors
-Yuxin (Vincy) Zheng (Andrew Id: yuxinzhe)
-Xiaoyang (Jake) Wen (Andrew Id: xwen2)
+### Yuxin (Vincy) Zheng (Andrew Id: yuxinzhe)
+
+### Xiaoyang (Jake) Wen (Andrew Id: xwen2)
 
