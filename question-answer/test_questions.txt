@@ -1,0 +1,125 @@
+Who is offering the Advanced NLP course in Spring 2024? 
+What is the title of paper that written by Yonatan Bisk and Graham Neubig? 
+What end-to-end task success rate that best GPT-4-based agent achives in paper WebArena: A Realistic Web Environment for Building Autonomous Agents? 
+What is the latest paper published by Jamie Callan? 
+What are the research areas of Ralf Brown? 
+Who is teaching the Architecture Design Studio: Poiesis Studio 2 Section D in Spring 2024? 
+Who is teaching the Architecture Design Studio: Poiesis Studio 2 in Spring 2024? 
+Who is teaching the Architecture Design Studio: Poiesis Studio 2 Lecture in Spring 2024? 
+In spring 2024, how many units is course 48111? 
+In fall 2023, what date does the semester begin?
+How many units of graduate-level courses do students pursuing a Ph.D. in Language and Information Technologies need to pass?
+Who should I contact for information about Dual-Degree Ph.D. in Language and Information Technologies (Portugal Partnership)?
+How long does Master of Language Technologies (MLT) program take?
+When is the application deadline for Master of Science in Artificial Intelligence and Innovation in CMU?
+How many units of senior-to-graduate courses do students need to pass to complete the Master of Language Technologies degree?
+When is the Booth, Rides and Dog Houses event on Thursday? 
+Who can come to the Inventing Shakespeare: Text, Technology and The Four Folios event?
+What is the date of Senior Leadership Recognition Ceremony? 
+Where will the Center for Student Diversity and Inclusion Ceremony be held?
+What is the email of M. Shernell Smith?
+What do every “Star Trek” fan know about?
+What is a CMU spinoff that proving learning a second language doesn’t have to be expensive?
+What is the name of IBM computer that defeated two human champions on the game show "Jeopardy!"? 
+How many years of existence did the School of Computer Science celebrate in 2014? 
+When were Simon and Newell awarded the A.M. Turing Award for their work in artificial intelligence? 
+When was the official announcement of CMU's new "graduate school of computer science"? 
+How many faculties are there in CMU?
+In 1982, the first smile in an email was created by?
+In 1900, how much did Andrew Carnegie donate for the creation of a technical institute for the city of Pittsburgh?
+What is a top priority for teams in CMU Buggy Races? 
+What program is a successor to the M.S. in Biotechnology, Innovation and Computing (MSBIC)?
+Who should I contact about more information about the MSAII program?
+When are MIIS students allowed to switch tracks?
+What is the course 21111 in Fall 2023?
+Who is the instructor for fall 2023 21240 Lecture?
+What was the first artificial intelligence program that could solve logic puzzles in the same way that a human might solve them?
+How many processors did CMU researchers ganging together to build a pioneering computer called C.mmp? 
+How many years did Red Whittaker's Robotic Reconnaissance Vehicle spend inspecting and cleaning up the contaminated reactor building at the crippled Three Mile Island nuclear plant? 
+In computer parlance, what is the heart of an operating system? 
+Who played key roles in developing "Deep Blue", the IBM machine that beat human chess champion Garry Kasparov in 1997?
+When did Scotty's road from popular icon to official mascot of the university begin? 
+How many percent of 2,370 students surveyed in February 2007 voted for the Scottish terrier? 
+What is the nickname of the Carnegie Mellon athletic teams?
+How many undergraduate enrolled in Carnegie Mellon University in Fall 2021?
+When was computer science Ph.D. program being created? 
+Who was the first CMU Computer Science Department head?
+In 1971, who were awarded the A.M. Turing Award for their work in artificial intelligence?
+What new research frontier did the university and the computer science department established by working with IBM in the early 1980s?
+What is the topic of Master of Computational Data Science Program (MCDS) handbook Section 3.3.28?
+What does the MCDS degree focus on? 
+How many majors do the MCDS program offers? 
+Who is the instructor of 48050 in Fall 2023?
+How many units is 48100 for Fall 2023? 
+Is there a limit on number of guests who can attend the main commencement ceremony? 
+When is the main commencement ceremony for the conferral of all degrees?
+Where will the Phi Beta Kappa Initiation Ceremony be held?
+What date will the event Faces of Carnival Photo Mosaic be held? 
+Where will the event Carnival Activities Tent be held?
+When did the Kiltie Band begin?
+After football season, how many spring concerts does the Kiltie Concert Band play?
+What do people wear under those kilts?
+Who is the Chair of Carnegie Mellon University Board of Trustees?
+Which Carnegie Mellon University alumni is a pop artist pioneer and cultural icon?
+Which Carnegie Mellon University professor invented Duolingo?
+Which university is the first U.S. school to award a degree in a drama in 1914?
+How many Nobel Laureates does Carnegie Mellon University have?
+If an MLT student wants to TA a course, who must they get the approval of?
+What average grade or better before applying to the program do students interested in the language technologies minor must complete prerequisite courses with?
+Who is the author of the paper A Gold Standard Dataset for the Reviewer Assignment Problem?
+What is the publication ID of paper Challenges of Corporate Alliance CLOMA toward Plastic Litter?
+In the paper Program-Aided Reasoners (better) Know What They Know, what model do they compare with calibration of Program Aided Language Models (PAL)?
+What is the paper written by Lei Li that is co-authors by Rongyan Zhu, Lulu Wang?
+What is the publication url of the paper Overview of the TREC 2021 Fair Ranking Track?
+In the paper MultiIoT: Towards Large-scale Multisensory Learning for the Internet of Things, how many samples does the MultiIoT encompass?
+What is the publication name of the paper Making Scalable Meta Learning Practical? 
+What year is the paper Exploring Artificial Intelligence in English Language Arts with StoryQ?
+Which faculty is the author of the paper A New Benchmark of Aphasia Speech Recognition and Detection Based on E-Branchformer and Multi-task Learning?
+Who is the faculty author of the paper The Framework Tax: Disparities Between Inference Efficiency in Research and Deployment?
+Who is the faculty author of the paper ChatGPT MT: Competitive for High- (but Not Low-) Resource Languages?
+What is the publication year of the paper Approach to Learning Generalized Audio Representation Through Batch Embedding Covariance Regularization and Constant-Q Transforms?
+Who are the coauthors of the paper Think Twice: Perspective-Taking Improves Large Language Models' Theory-of-Mind Capabilities? 
+What is the publication ID of the paper Think Twice: Perspective-Taking Improves Large Language Models' Theory-of-Mind Capabilities?
+What is the publication issn of the paper Think Twice: Perspective-Taking Improves Large Language Models' Theory-of-Mind Capabilities? 
+Who is the faculty author of the paper TAPLoss: A Temporal Acoustic Parameter Loss for Speech Enhancement?
+What is thepublication year of the paper Syntax and Semantics Meet in the “Middle”: Probing the Syntax-Semantics Interface of LMs Through Agentivity?
+How many people does it take to maneuver the .84 -mile course around Schenley Park's Flagstaff Hill? 
+What have been a key feature for the Fringe team in recent years, which is celebrating its 50th anniversary of Buggy? 
+Who is social chair for Fringe?
+What is a team member who provides a signal for buggy drivers to know when to start the right-hand turn from Schenley Drive onto Frew Street?
+What is a person who propels a buggy via a pushbar along one of the five hills of the buggy course?
+What is a procedure whereby one pusher finishes pushing a buggy and the next pusher in sequence starts to push that same buggy?
+Who founded Carnegie Mellon University in November 15, 1900?
+How many students are there in Carnegie Mellon University?
+What percentage of Computer Science's first-year students were women in 2019?
+Who invented the Java computer programming language?
+Who invented Kevlar Fiber?
+Who wrote The Last Lecture?
+What is the first U.S. school to award a degree in drama in 1914? 
+Who is the Chair of Carnegie Mellon Univeristy Board of Trustees?
+What is the title of Alexander Waibel?
+What is the phone of Shinji Watanabe?
+What is the email of Eric P. Xin
+What is the office of Yiming Yang?
+What is the email of Robert Frederking?
+Who will assist in their search for counseling, workshops, and internship opportunity listings in Handshake?
+Who offered two- and three-year certificates in the arts as well as in engineering disciplines and included a college for women, Margaret Morrison Carnegie College?
+Who laid the groundwork for a research institution, recruiting leading scientists, offering sponsored fellowships with government and industry leaders and pioneering nontraditional interdisciplinary research?
+When did Carnegie Mellon begin offering degree programs outside of Pittsburgh?
+When did The Kiltie Band begin with a group of just seven students dedicated to supporting Carnegie Tech football? 
+What is a campus organization recognized by Student Senate and administered by the Department of Athletics, Physical Education and Recreation?
+What are the first two years of the LTI Ph.D. program are similar to?
+What included a series of surveys and a university Town Hall meeting?
+When did Carnegie Mellon's official mascot debut?
+What had magnetic-drum memory and a processing speed of approximately 60 instructions per second?
+When did Carnegie Institute of Technology merge with the nearby Mellon Institute of Industrial Research to form Carnegie-Mellon University?
+What emerged from the brief crisis as a highly agile, interdisciplinary entity, with many new faculty members taking joint appointments with other CMU departments?
+In 1975, who were awarded the A.M. Turing Award for their work in artificial intelligence?
+When did an executive at Pittsburgh's Westinghouse Electric Corp., Tom Murrin, collaborate with Jordan and Reddy to create the Robotics Institute, with Reddy as its first director?
+When did Cyert (H'89) tell faculty and staff that Habermann had been appointed CMU's first Dean of Computer Science, effective Dec. 1, and that the School of Computer Science would soon begin operations
+What are the Carnegie Mellon athletic teams nicknamed as a nod to Andrew Carnegie's Scottish heritage
+What is the zip code of Carnegie Mellon University?
+What is the number of graduate and doctoral enrolled in Carnegie Mellon University in Fall 2021?
+What is the basketball and volleyball gymnasium at Carnegie Mellon University?
+When did Dr. Josh Centor receive his Alma Mater degree from Brandeis?
+What is the mailing address of Carnegie Mellon University?

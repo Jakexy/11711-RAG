@@ -18,8 +18,8 @@ os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 directory_path = 'data/parsed_data'
 directory_path2 = 'data/papers'
-output_path_index = 'data/embedded_data/faiss_index'
-output_path_segments = 'data/embedded_data/segments.json'
+output_path_index = 'data/embedded_data/faiss_index_l2'
+output_path_segments = 'data/embedded_data/segments_l2.json'
 
 def load_documents(max_chars=1000, overlap_chars=250):
     documents = []
@@ -45,7 +45,8 @@ def encode_documents(documents, context_encoder, context_encoder_tokenizer):
 
 def create_faiss_index(embeddings):
     dimension = embeddings.shape[1]
-    index = faiss.IndexFlatIP(dimension)
+    index = faiss.IndexFlatL2(dimension)
+    # index = faiss.IndexFlatIP(dimension)
     index.add(embeddings)
     return index
 
